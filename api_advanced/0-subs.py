@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""Module"""
+"""Module that fetches from the reddit API what is needed"""
 
 import requests
 
