@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-
-"""Module that fetches from the reddit API what is needed"""
-
+"""
+1-main
+"""
 import requests
 
 def number_of_subscribers(subreddit):
