@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-0-main
+Retrieve the number of subscribers from the external module 0-subs.py
+The retrieved subscriber count is then printed to the console
 """
 import sys
 
@@ -9,5 +10,4 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("Please pass an argument for the subreddit to search.")
     else:
-        print("{:d}".format(number_of_subscribers(sys.argv[1])))ror: {e}")
-        return 0
+        print("{:d}".format(number_of_subscribers(sys.argv[1])))
